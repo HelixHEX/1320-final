@@ -17,7 +17,7 @@ const Band = ({ band }: BandProps) => {
   return (
     <>
       <Flex p={10} borderColor={'white'} borderWidth={1} flexDir={"column"}>
-        <Heading>{band.band_name}</Heading>
+        <Heading color='cyan.400'>{band.band_name}</Heading>
         <Flex mt={5} flexDir={'column'} color={"white"}>
           <Flex >
             <Text fontWeight={600}>Origin: </Text>
