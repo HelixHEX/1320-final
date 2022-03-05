@@ -51,7 +51,7 @@ const Band = ({ band }: BandProps) => {
             <UnorderedList>
               {band.style.split(",").map((style: string, index: number) => (
                 <ListItem key={index}>
-                  <Text key={index} fontWeight={200}>
+                  <TextfontWeight={200}>
                     {style}
                   </Text>
                 </ListItem>
