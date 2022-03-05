@@ -7,7 +7,7 @@ const Like = () => {
   return (
     <>
       <Flex>
-        <Button alignSelf={'center'} onClick={() => setCount(count - 1)}>👎</Button>
+        <Button _hover={{translateY: 1.1}} alignSelf={'center'} onClick={() => setCount(count - 1)}>👎</Button>
         <Text ml={2} mr={2} fontSize={[35, 35, 45, 45]} color='white'>{count}</Text>
         <Button alignSelf={'center'} onClick={() => setCount(count + 1)}>👍</Button>
       </Flex>
