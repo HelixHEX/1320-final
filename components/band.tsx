@@ -29,7 +29,7 @@ const Band = ({ band }: BandProps) => {
           <Flex>
             <Text fontWeight={600}>Fans: </Text>
             <Text ml={2} fontWeight={200}>
-              {band.fans}
+              {band.fans.toLocaleString('en')}
             </Text>
           </Flex>
 
